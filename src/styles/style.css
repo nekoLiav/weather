@@ -1,0 +1,89 @@
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 4rem;
+  max-height: 5rem;
+}
+
+#header-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#main {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 100%;
+}
+
+#location-form {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#location-label {
+  font-size: 1.5rem;
+}
+
+#location-input {
+  height: 2rem;
+  width: 100%;
+  min-width: 20rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+
+#current-weather {
+  background-color: #000000;
+}
+
+#current-info {
+  background-color: #000000;
+  grid-column-start: 3;
+}
+
+#weekly-weather {
+  background-color: #000000;
+  padding: 1rem;
+  gap: 1rem;
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekly-weather-widget {
+  background-color: #1a1a1a;
+  height: 100%;
+  min-height: 12rem;
+  max-height: 12rem;
+  width: 100%;
+}
+
+footer {
+  background-color: #000000;
+  height: 4rem;
+  max-height: 5rem;
+  min-height: 2rem;
+  margin-top: auto;
+}
