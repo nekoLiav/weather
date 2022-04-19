@@ -1,0 +1,6 @@
+1. Populate page automatically with my local weather
+2. User prompted for location services
+3. When location services is successful, do the following:
+4. Call fetchWeather and fetchGeo
+5. Call separate DOM functions with returned promise object to populate elements with new information
+6. If location services is unsuccessful, my local weather data will still be intact

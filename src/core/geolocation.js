@@ -1,5 +1,5 @@
-import fetchGeo from './fetchGeo';
 import fetchWeather from './fetchWeather';
+import fetchGeo from './fetchGeo';
 
 export default function geolocation() {
   const options = {
@@ -12,10 +12,6 @@ export default function geolocation() {
     const { coords } = pos;
     fetchWeather(coords.latitude, coords.longitude);
     fetchGeo(coords.latitude, coords.longitude);
-
-    console.log(`Latitude: ${coords.latitude}`);
-    console.log(`Longitude: ${coords.longitude}`);
-    console.log(`Accuracy: About ${coords.accuracy}`);
   };
 
   const error = (err) => {
