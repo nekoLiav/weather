@@ -8,19 +8,34 @@
 
 <body>
   <header>
-    <h1>Weather</h1>
+    <h1 id="header-text">Weather</h1>
   </header>
-  <form>
-    <label for="zip">Location:</label>
-    <input type="number" id="zipinput">
-  </form>
-  <div id="weatherinfo">
-    <h2 id="location"></h2>
-    <img id="weathericon" src="#">
-    <h2 id="weathertemperature">
-      </h1>
-      <h3 id="weatherdescription">
-    </h2>
+  <div id="main">
+    <form id="location-form">
+      <label id="location-label" for="location"></label>
+      <input type="text" id="location-input" name="location" placeholder="Country, City, State, Zip, etc.">
+    </form>
+    <div id="current-weather-widget">
+      <div id="current-weather-primary">
+        <img id="current-weather-icon">
+        <p id="current-weather-temp"></p>
+        <p id="current-location"></p>
+      </div>
+      <div id="current-weather-secondary">
+        <p id="current-feels-like"></p>
+        <p id="current-humidity"></p>
+        <p id="current-precipitation-chance"></p>
+      </div>
+    </div>
+    <div id="weekly-weather">
+      <div class="weekly-weather-widget"></div>
+      <div class="weekly-weather-widget"></div>
+      <div class="weekly-weather-widget"></div>
+      <div class="weekly-weather-widget"></div>
+      <div class="weekly-weather-widget"></div>
+      <div class="weekly-weather-widget"></div>
+      <div class="weekly-weather-widget"></div>
+    </div>
   </div>
   <footer></footer>
 </body>
