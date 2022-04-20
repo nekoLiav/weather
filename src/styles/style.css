@@ -60,9 +60,9 @@ header {
 
 #location-form {
   display: flex;
-  align-items: center;
   height: 100%;
   width: 100%;
+  min-width: 350px;
   flex-direction: column;
   grid-column-start: 1;
   grid-row-start: 2;
@@ -76,6 +76,7 @@ header {
 #location-input {
   height: 2rem;
   width: 50%;
+  min-width: 350px;
   font-size: 1.5rem;
   border-radius: 10px;
 }
@@ -87,8 +88,10 @@ header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
-  width: 100%;
+  width: 50%;
+  min-width: 350px;
   padding: 1rem;
+  border-radius: 5px;
 }
 
 #current-weather {
@@ -97,9 +100,11 @@ header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   grid-column-start: 1;
-  max-width: 100%;
+  width: 50%;
+  min-width: 350px;
   gap: 1rem;
   padding: 1rem;
+  border-radius: 5px;
 }
 
 #current-weather-icon {
@@ -132,15 +137,51 @@ header {
 .weather-widget {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   min-height: 12rem;
   max-height: 12rem;
   width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#photo-credit {
+  display: flex;
+  align-items: center;
+  order: 2;
+}
+
+#self-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+  max-height: 48px;
+}
+
+#self-icon {
+  max-height: 48px;
+  width: 100%;
+}
+
+#odin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 3;
+  max-height: 48px;
+}
+
+#odin-icon {
+  max-height: 48px;
+  width: 100%;
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.5);
   height: 4rem;
   max-height: 5rem;
