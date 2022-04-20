@@ -9,7 +9,7 @@ export default function populateDailyForecast(wd) {
   const oneHumidity = document.getElementById('one-humidity');
   const onePrecip = document.getElementById('one-precip');
   oneDay.textContent = format(fromUnixTime(wd[1].dt), 'EEEE');
-  oneIcon.src = `http://openweathermap.org/img/wn/${wd[1].weather[0].icon}@2x.png`;
+  oneIcon.src = `https://openweathermap.org/img/wn/${wd[1].weather[0].icon}@2x.png`;
   oneTemp.textContent = `${Math.floor(wd[1].temp.max)}/${Math.floor(
     wd[1].temp.min
   )}°F`;
@@ -21,7 +21,7 @@ export default function populateDailyForecast(wd) {
   const twoHumidity = document.getElementById('two-humidity');
   const twoPrecip = document.getElementById('two-precip');
   twoDay.textContent = format(fromUnixTime(wd[2].dt), 'EEEE');
-  twoIcon.src = `http://openweathermap.org/img/wn/${wd[2].weather[0].icon}@2x.png`;
+  twoIcon.src = `https://openweathermap.org/img/wn/${wd[2].weather[0].icon}@2x.png`;
   twoTemp.textContent = `${Math.floor(wd[2].temp.max)}/${Math.floor(
     wd[2].temp.min
   )}°F`;
@@ -33,7 +33,7 @@ export default function populateDailyForecast(wd) {
   const threeHumidity = document.getElementById('three-humidity');
   const threePrecip = document.getElementById('three-precip');
   threeDay.textContent = format(fromUnixTime(wd[3].dt), 'EEEE');
-  threeIcon.src = `http://openweathermap.org/img/wn/${wd[3].weather[0].icon}@2x.png`;
+  threeIcon.src = `https://openweathermap.org/img/wn/${wd[3].weather[0].icon}@2x.png`;
   threeTemp.textContent = `${Math.floor(wd[3].temp.max)}/${Math.floor(
     wd[3].temp.min
   )}°F`;
@@ -45,7 +45,7 @@ export default function populateDailyForecast(wd) {
   const fourHumidity = document.getElementById('four-humidity');
   const fourPrecip = document.getElementById('four-precip');
   fourDay.textContent = format(fromUnixTime(wd[4].dt), 'EEEE');
-  fourIcon.src = `http://openweathermap.org/img/wn/${wd[4].weather[0].icon}@2x.png`;
+  fourIcon.src = `https://openweathermap.org/img/wn/${wd[4].weather[0].icon}@2x.png`;
   fourTemp.textContent = `${Math.floor(wd[4].temp.max)}/${Math.floor(
     wd[4].temp.min
   )}°F`;
@@ -57,7 +57,7 @@ export default function populateDailyForecast(wd) {
   const fiveHumidity = document.getElementById('five-humidity');
   const fivePrecip = document.getElementById('five-precip');
   fiveDay.textContent = format(fromUnixTime(wd[5].dt), 'EEEE');
-  fiveIcon.src = `http://openweathermap.org/img/wn/${wd[5].weather[0].icon}@2x.png`;
+  fiveIcon.src = `https://openweathermap.org/img/wn/${wd[5].weather[0].icon}@2x.png`;
   fiveDay.textContent = format(fromUnixTime(wd[5].dt), 'EEEE');
   fiveTemp.textContent = `${Math.floor(wd[5].temp.max)}/${Math.floor(
     wd[5].temp.min
@@ -70,7 +70,7 @@ export default function populateDailyForecast(wd) {
   const sixHumidity = document.getElementById('six-humidity');
   const sixPrecip = document.getElementById('six-precip');
   sixDay.textContent = format(fromUnixTime(wd[6].dt), 'EEEE');
-  sixIcon.src = `http://openweathermap.org/img/wn/${wd[6].weather[0].icon}@2x.png`;
+  sixIcon.src = `https://openweathermap.org/img/wn/${wd[6].weather[0].icon}@2x.png`;
   sixTemp.textContent = `${Math.floor(wd[6].temp.max)}/${Math.floor(
     wd[6].temp.min
   )}°F`;
@@ -82,7 +82,7 @@ export default function populateDailyForecast(wd) {
   const sevenHumidity = document.getElementById('seven-humidity');
   const sevenPrecip = document.getElementById('seven-precip');
   sevenDay.textContent = format(fromUnixTime(wd[7].dt), 'EEEE');
-  sevenIcon.src = `http://openweathermap.org/img/wn/${wd[7].weather[0].icon}@2x.png`;
+  sevenIcon.src = `https://openweathermap.org/img/wn/${wd[7].weather[0].icon}@2x.png`;
   sevenTemp.textContent = `${Math.floor(wd[7].temp.max)}/${Math.floor(
     wd[7].temp.min
   )}°F`;
