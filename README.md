@@ -14,5 +14,6 @@
 <h3>Created With:</h3>
 JavaScript w/ ES6 modules</br>
 Webpack</br>
+
 [date-fns](https://date-fns.org/v2.28.0/docs/format/)</br>
 [OpenWeatherMap API](https://openweathermap.org/api)
