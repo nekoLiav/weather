@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,33 +12,64 @@
     <h1 id="header-text">Weather</h1>
   </header>
   <div id="main">
-    <form id="location-form">
-      <label id="location-label" for="location"></label>
-      <input type="text" id="location-input" name="location" placeholder="Country, City, State, Zip, etc.">
-    </form>
-    <div id="current-weather-widget">
-      <div id="current-weather-primary">
-        <img id="current-weather-icon">
-        <p id="current-weather-temp"></p>
-        <p id="current-location"></p>
-      </div>
-      <div id="current-weather-secondary">
-        <p id="current-feels-like"></p>
-        <p id="current-humidity"></p>
-        <p id="current-precipitation-chance"></p>
-      </div>
+    <div id="current-weather">
+      <p id="current-weather-temp"></p>
+      <p id="current-location"></p>
+      <img id="current-weather-icon">
+      <p id="current-feels-like"></p>
+      <p id="current-humidity"></p>
     </div>
-    <div id="weekly-weather">
-      <div class="weekly-weather-widget"></div>
-      <div class="weekly-weather-widget"></div>
-      <div class="weekly-weather-widget"></div>
-      <div class="weekly-weather-widget"></div>
-      <div class="weekly-weather-widget"></div>
-      <div class="weekly-weather-widget"></div>
-      <div class="weekly-weather-widget"></div>
+    <form id="location-form">
+      <input type="text" id="location-input" name="location" placeholder="">
+      <div id="location-results"></div>
+    </form>
+    <div id="weather-widgets">
+      <div class="weather-widget">
+        <p id="one-temp"></p>
+        <img id="one-weather-icon">
+        <p id="one-day"></p>
+      </div>
+      <div class="weather-widget">
+        <p id="two-temp"></p>
+        <img id="two-weather-icon">
+        <p id="two-day"></p>
+      </div>
+      <div class="weather-widget">
+        <p id="three-temp"></p>
+        <img id="three-weather-icon">
+        <p id="three-day"></p>
+      </div>
+      <div class="weather-widget">
+        <p id="four-temp"></p>
+        <img id="four-weather-icon">
+        <p id="four-day"></p>
+      </div>
+      <div class="weather-widget">
+        <p id="five-temp"></p>
+        <img id="five-weather-icon">
+        <p id="five-day"></p>
+      </div>
+      <div class="weather-widget">
+        <p id="six-temp"></p>
+        <img id="six-weather-icon">
+        <p id="six-day"></p>
+      </div>
+      <div class="weather-widget">
+        <p id="seven-temp"></p>
+        <img id="seven-weather-icon">
+        <p id="seven-day"></p>
+      </div>
     </div>
   </div>
-  <footer></footer>
+  <footer>
+    <div>
+      Photo by <a
+        href="https://unsplash.com/@jeremybishop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy
+        Bishop</a> on <a
+        href="https://unsplash.com/backgrounds/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+    </div>
+  </footer>
 </body>
 
 </html>
