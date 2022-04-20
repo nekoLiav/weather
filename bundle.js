@@ -52,7 +52,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "a {\n  color: white;\n}\n\nhtml {\n  height: 100%;\n  width: 100%;\n}\n\nbody {\n  background: black url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center;\n  background-size: cover;\n  color: white;\n  font-family: Arial, Helvetica, sans-serif;\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n  width: 100%;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  height: 4rem;\n  max-height: 5rem;\n}\n\n#header-text {\n  font-size: 2rem;\n  font-weight: bold;\n}\n\n#main {\n  display: grid;\n  gap: 1rem;\n  padding: 1rem;\n  grid-auto-columns: minmax(0, 1fr);\n  grid-auto-rows: minmax(0, 1fr);\n  height: 100%;\n}\n\n.result-info {\n  display: flex;\n  padding: 1rem;\n}\n\n.result-info:hover {\n  background-color: rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n}\n\n#location-form {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  flex-direction: column;\n  grid-column-start: 1;\n  grid-row-start: 2;\n}\n\n#location-label {\n  font-size: 1.5rem;\n}\n\n#location-input {\n  height: 2rem;\n  font-size: 1.5rem;\n  border-radius: 10px;\n}\n\n#location-results {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  height: 100%;\n  max-width: 100%;\n  gap: 1rem;\n  padding: 1rem;\n}\n\n#current-weather {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  grid-column-start: 1;\n  max-width: 100%;\n  gap: 1rem;\n  padding: 1rem;\n}\n\n#current-weather-icon {\n  max-height: 200px;\n  max-width: 200px;\n}\n\n#current-weather-temp {\n  font-size: 3rem;\n  max-width: 200px;\n  display: flex;\n  justify-content: center;\n}\n\n#current-weather-secondary {\n  background-color: rgba(0, 0, 0, 0.25);\n  width: 100%;\n  padding: 1rem;\n}\n\n#weather-widgets {\n  gap: 1rem;\n  grid-column-start: 1;\n  grid-column-end: 4;\n  display: grid;\n  align-items: center;\n  justify-content: center;\n  grid-template-columns: repeat(7, 1fr);\n}\n\n.weather-widget {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  min-height: 12rem;\n  max-height: 12rem;\n  width: 100%;\n}\n\nfooter {\n  background-color: rgba(0, 0, 0, 0.25);\n  height: 4rem;\n  max-height: 5rem;\n  min-height: 2rem;\n  margin-top: auto;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,0EAA8E;EAC9E,sBAAsB;EACtB,YAAY;EACZ,yCAAyC;EACzC,aAAa;EACb,sBAAsB;EACtB,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,qCAAqC;EACrC,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,SAAS;EACT,aAAa;EACb,iCAAiC;EACjC,8BAA8B;EAC9B,YAAY;AACd;;AAEA;EACE,aAAa;EACb,aAAa;AACf;;AAEA;EACE,oCAAoC;EACpC,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,WAAW;EACX,sBAAsB;EACtB,oBAAoB;EACpB,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,mBAAmB;EACnB,qCAAqC;EACrC,YAAY;EACZ,eAAe;EACf,SAAS;EACT,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,qCAAqC;EACrC,oBAAoB;EACpB,eAAe;EACf,SAAS;EACT,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,qCAAqC;EACrC,WAAW;EACX,aAAa;AACf;;AAEA;EACE,SAAS;EACT,oBAAoB;EACpB,kBAAkB;EAClB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,qCAAqC;AACvC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,qCAAqC;EACrC,iBAAiB;EACjB,iBAAiB;EACjB,WAAW;AACb;;AAEA;EACE,qCAAqC;EACrC,YAAY;EACZ,gBAAgB;EAChB,gBAAgB;EAChB,gBAAgB;AAClB","sourcesContent":["a {\n  color: white;\n}\n\nhtml {\n  height: 100%;\n  width: 100%;\n}\n\nbody {\n  background: black url('../assets/jeremy-bishop-unsplash.jpg') no-repeat center;\n  background-size: cover;\n  color: white;\n  font-family: Arial, Helvetica, sans-serif;\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n  width: 100%;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  height: 4rem;\n  max-height: 5rem;\n}\n\n#header-text {\n  font-size: 2rem;\n  font-weight: bold;\n}\n\n#main {\n  display: grid;\n  gap: 1rem;\n  padding: 1rem;\n  grid-auto-columns: minmax(0, 1fr);\n  grid-auto-rows: minmax(0, 1fr);\n  height: 100%;\n}\n\n.result-info {\n  display: flex;\n  padding: 1rem;\n}\n\n.result-info:hover {\n  background-color: rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n}\n\n#location-form {\n  display: flex;\n  height: 100%;\n  width: 100%;\n  flex-direction: column;\n  grid-column-start: 1;\n  grid-row-start: 2;\n}\n\n#location-label {\n  font-size: 1.5rem;\n}\n\n#location-input {\n  height: 2rem;\n  font-size: 1.5rem;\n  border-radius: 10px;\n}\n\n#location-results {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  height: 100%;\n  max-width: 100%;\n  gap: 1rem;\n  padding: 1rem;\n}\n\n#current-weather {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  grid-column-start: 1;\n  max-width: 100%;\n  gap: 1rem;\n  padding: 1rem;\n}\n\n#current-weather-icon {\n  max-height: 200px;\n  max-width: 200px;\n}\n\n#current-weather-temp {\n  font-size: 3rem;\n  max-width: 200px;\n  display: flex;\n  justify-content: center;\n}\n\n#current-weather-secondary {\n  background-color: rgba(0, 0, 0, 0.25);\n  width: 100%;\n  padding: 1rem;\n}\n\n#weather-widgets {\n  gap: 1rem;\n  grid-column-start: 1;\n  grid-column-end: 4;\n  display: grid;\n  align-items: center;\n  justify-content: center;\n  grid-template-columns: repeat(7, 1fr);\n}\n\n.weather-widget {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.25);\n  min-height: 12rem;\n  max-height: 12rem;\n  width: 100%;\n}\n\nfooter {\n  background-color: rgba(0, 0, 0, 0.25);\n  height: 4rem;\n  max-height: 5rem;\n  min-height: 2rem;\n  margin-top: auto;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  height: 100%;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n*,\n*:before,\n*:after {\n  box-sizing: inherit;\n}\n\na {\n  color: white;\n}\n\nbody {\n  background: black url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center;\n  background-size: cover;\n  color: white;\n  font-family: Arial, Helvetica, sans-serif;\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n  width: 100%;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  height: 4rem;\n  max-height: 5rem;\n}\n\n#header-text {\n  font-size: 2rem;\n  font-weight: bold;\n}\n\n#main {\n  display: grid;\n  gap: 1rem;\n  padding: 1rem;\n  grid-auto-columns: minmax(0, 1fr);\n  grid-auto-rows: minmax(0, 1fr);\n  height: 100%;\n}\n\n.result-info {\n  display: flex;\n  padding: 1rem;\n}\n\n.result-info:hover {\n  background-color: rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n}\n\n#location-form {\n  display: flex;\n  align-items: center;\n  height: 100%;\n  width: 100%;\n  flex-direction: column;\n  grid-column-start: 1;\n  grid-row-start: 2;\n  gap: 1rem;\n}\n\n#location-label {\n  font-size: 1.5rem;\n}\n\n#location-input {\n  height: 2rem;\n  width: 50%;\n  font-size: 1.5rem;\n  border-radius: 10px;\n}\n\n#location-results {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  height: 100%;\n  width: 100%;\n  padding: 1rem;\n}\n\n#current-weather {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  grid-column-start: 1;\n  max-width: 100%;\n  gap: 1rem;\n  padding: 1rem;\n}\n\n#current-weather-icon {\n  max-height: 200px;\n  max-width: 200px;\n}\n\n#current-weather-temp {\n  font-size: 3rem;\n  max-width: 200px;\n  display: flex;\n  justify-content: center;\n}\n\n#current-weather-secondary {\n  background-color: rgba(0, 0, 0, 0.5);\n  width: 100%;\n  padding: 1rem;\n}\n\n#weather-widgets {\n  gap: 1rem;\n  grid-column-start: 1;\n  grid-column-end: 4;\n  display: grid;\n  align-items: flex-end;\n  grid-template-columns: repeat(7, 1fr);\n}\n\n.weather-widget {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  min-height: 12rem;\n  max-height: 12rem;\n  width: 100%;\n}\n\nfooter {\n  background-color: rgba(0, 0, 0, 0.5);\n  height: 4rem;\n  max-height: 5rem;\n  min-height: 2rem;\n  margin-top: auto;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,WAAW;EACX,sBAAsB;AACxB;;AAEA;;;EAGE,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,0EAA8E;EAC9E,sBAAsB;EACtB,YAAY;EACZ,yCAAyC;EACzC,aAAa;EACb,sBAAsB;EACtB,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,oCAAoC;EACpC,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,SAAS;EACT,aAAa;EACb,iCAAiC;EACjC,8BAA8B;EAC9B,YAAY;AACd;;AAEA;EACE,aAAa;EACb,aAAa;AACf;;AAEA;EACE,oCAAoC;EACpC,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,sBAAsB;EACtB,oBAAoB;EACpB,iBAAiB;EACjB,SAAS;AACX;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,UAAU;EACV,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,mBAAmB;EACnB,oCAAoC;EACpC,YAAY;EACZ,WAAW;EACX,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,oCAAoC;EACpC,oBAAoB;EACpB,eAAe;EACf,SAAS;EACT,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,aAAa;AACf;;AAEA;EACE,SAAS;EACT,oBAAoB;EACpB,kBAAkB;EAClB,aAAa;EACb,qBAAqB;EACrB,qCAAqC;AACvC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,oCAAoC;EACpC,iBAAiB;EACjB,iBAAiB;EACjB,WAAW;AACb;;AAEA;EACE,oCAAoC;EACpC,YAAY;EACZ,gBAAgB;EAChB,gBAAgB;EAChB,gBAAgB;AAClB","sourcesContent":["html {\n  height: 100%;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n*,\n*:before,\n*:after {\n  box-sizing: inherit;\n}\n\na {\n  color: white;\n}\n\nbody {\n  background: black url('../assets/jeremy-bishop-unsplash.jpg') no-repeat center;\n  background-size: cover;\n  color: white;\n  font-family: Arial, Helvetica, sans-serif;\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n  width: 100%;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  height: 4rem;\n  max-height: 5rem;\n}\n\n#header-text {\n  font-size: 2rem;\n  font-weight: bold;\n}\n\n#main {\n  display: grid;\n  gap: 1rem;\n  padding: 1rem;\n  grid-auto-columns: minmax(0, 1fr);\n  grid-auto-rows: minmax(0, 1fr);\n  height: 100%;\n}\n\n.result-info {\n  display: flex;\n  padding: 1rem;\n}\n\n.result-info:hover {\n  background-color: rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n}\n\n#location-form {\n  display: flex;\n  align-items: center;\n  height: 100%;\n  width: 100%;\n  flex-direction: column;\n  grid-column-start: 1;\n  grid-row-start: 2;\n  gap: 1rem;\n}\n\n#location-label {\n  font-size: 1.5rem;\n}\n\n#location-input {\n  height: 2rem;\n  width: 50%;\n  font-size: 1.5rem;\n  border-radius: 10px;\n}\n\n#location-results {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  height: 100%;\n  width: 100%;\n  padding: 1rem;\n}\n\n#current-weather {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  grid-column-start: 1;\n  max-width: 100%;\n  gap: 1rem;\n  padding: 1rem;\n}\n\n#current-weather-icon {\n  max-height: 200px;\n  max-width: 200px;\n}\n\n#current-weather-temp {\n  font-size: 3rem;\n  max-width: 200px;\n  display: flex;\n  justify-content: center;\n}\n\n#current-weather-secondary {\n  background-color: rgba(0, 0, 0, 0.5);\n  width: 100%;\n  padding: 1rem;\n}\n\n#weather-widgets {\n  gap: 1rem;\n  grid-column-start: 1;\n  grid-column-end: 4;\n  display: grid;\n  align-items: flex-end;\n  grid-template-columns: repeat(7, 1fr);\n}\n\n.weather-widget {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0.5);\n  min-height: 12rem;\n  max-height: 12rem;\n  width: 100%;\n}\n\nfooter {\n  background-color: rgba(0, 0, 0, 0.5);\n  height: 4rem;\n  max-height: 5rem;\n  min-height: 2rem;\n  margin-top: auto;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3794,70 +3794,92 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var date_fns_esm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! date-fns/esm */ "./node_modules/date-fns/esm/fromUnixTime/index.js");
 
 
-async function populateDailyForecast(wd) {
+function populateDailyForecast(wd) {
   console.log(wd);
-  const oneTemp = document.getElementById('one-temp');
-  const oneIcon = document.getElementById('one-weather-icon');
   const oneDay = document.getElementById('one-day');
+  const oneIcon = document.getElementById('one-weather-icon');
+  const oneTemp = document.getElementById('one-temp');
+  const oneDesc = document.getElementById('one-desc');
+  const oneHumidity = document.getElementById('one-humidity');
+  const onePrecip = document.getElementById('one-precip');
+  oneDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[1].dt), 'EEEE');
+  oneIcon.src = `http://openweathermap.org/img/wn/${wd[1].weather[0].icon}@2x.png`;
   oneTemp.textContent = `${Math.floor(wd[1].temp.max)}/${Math.floor(
     wd[1].temp.min
   )}°F`;
-  oneIcon.src = `http://openweathermap.org/img/wn/${wd[1].weather[0].icon}@2x.png`;
-  oneDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[1].dt), 'EEEE');
 
-  const twoTemp = document.getElementById('two-temp');
-  const twoIcon = document.getElementById('two-weather-icon');
   const twoDay = document.getElementById('two-day');
+  const twoIcon = document.getElementById('two-weather-icon');
+  const twoTemp = document.getElementById('two-temp');
+  const twoDesc = document.getElementById('two-desc');
+  const twoHumidity = document.getElementById('two-humidity');
+  const twoPrecip = document.getElementById('two-precip');
+  twoDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[2].dt), 'EEEE');
+  twoIcon.src = `http://openweathermap.org/img/wn/${wd[2].weather[0].icon}@2x.png`;
   twoTemp.textContent = `${Math.floor(wd[2].temp.max)}/${Math.floor(
     wd[2].temp.min
   )}°F`;
-  twoIcon.src = `http://openweathermap.org/img/wn/${wd[2].weather[0].icon}@2x.png`;
-  twoDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[2].dt), 'EEEE');
 
-  const threeTemp = document.getElementById('three-temp');
-  const threeIcon = document.getElementById('three-weather-icon');
   const threeDay = document.getElementById('three-day');
+  const threeIcon = document.getElementById('three-weather-icon');
+  const threeTemp = document.getElementById('three-temp');
+  const threeDesc = document.getElementById('three-desc');
+  const threeHumidity = document.getElementById('three-humidity');
+  const threePrecip = document.getElementById('three-precip');
+  threeDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[3].dt), 'EEEE');
+  threeIcon.src = `http://openweathermap.org/img/wn/${wd[3].weather[0].icon}@2x.png`;
   threeTemp.textContent = `${Math.floor(wd[3].temp.max)}/${Math.floor(
     wd[3].temp.min
   )}°F`;
-  threeIcon.src = `http://openweathermap.org/img/wn/${wd[3].weather[0].icon}@2x.png`;
-  threeDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[3].dt), 'EEEE');
 
-  const fourTemp = document.getElementById('four-temp');
-  const fourIcon = document.getElementById('four-weather-icon');
   const fourDay = document.getElementById('four-day');
+  const fourIcon = document.getElementById('four-weather-icon');
+  const fourTemp = document.getElementById('four-temp');
+  const fourDesc = document.getElementById('four-desc');
+  const fourHumidity = document.getElementById('four-humidity');
+  const fourPrecip = document.getElementById('four-precip');
+  fourDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[4].dt), 'EEEE');
+  fourIcon.src = `http://openweathermap.org/img/wn/${wd[4].weather[0].icon}@2x.png`;
   fourTemp.textContent = `${Math.floor(wd[4].temp.max)}/${Math.floor(
     wd[4].temp.min
   )}°F`;
-  fourIcon.src = `http://openweathermap.org/img/wn/${wd[4].weather[0].icon}@2x.png`;
-  fourDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[4].dt), 'EEEE');
 
-  const fiveTemp = document.getElementById('five-temp');
-  const fiveIcon = document.getElementById('five-weather-icon');
   const fiveDay = document.getElementById('five-day');
+  const fiveIcon = document.getElementById('five-weather-icon');
+  const fiveTemp = document.getElementById('five-temp');
+  const fiveDesc = document.getElementById('five-desc');
+  const fiveHumidity = document.getElementById('five-humidity');
+  const fivePrecip = document.getElementById('five-precip');
+  fiveDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[5].dt), 'EEEE');
+  fiveIcon.src = `http://openweathermap.org/img/wn/${wd[5].weather[0].icon}@2x.png`;
+  fiveDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[5].dt), 'EEEE');
   fiveTemp.textContent = `${Math.floor(wd[5].temp.max)}/${Math.floor(
     wd[5].temp.min
   )}°F`;
-  fiveIcon.src = `http://openweathermap.org/img/wn/${wd[5].weather[0].icon}@2x.png`;
-  fiveDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[5].dt), 'EEEE');
 
-  const sixTemp = document.getElementById('six-temp');
-  const sixIcon = document.getElementById('six-weather-icon');
   const sixDay = document.getElementById('six-day');
+  const sixIcon = document.getElementById('six-weather-icon');
+  const sixTemp = document.getElementById('six-temp');
+  const sixDesc = document.getElementById('six-desc');
+  const sixHumidity = document.getElementById('six-humidity');
+  const sixPrecip = document.getElementById('six-precip');
+  sixDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[6].dt), 'EEEE');
+  sixIcon.src = `http://openweathermap.org/img/wn/${wd[6].weather[0].icon}@2x.png`;
   sixTemp.textContent = `${Math.floor(wd[6].temp.max)}/${Math.floor(
     wd[6].temp.min
   )}°F`;
-  sixIcon.src = `http://openweathermap.org/img/wn/${wd[6].weather[0].icon}@2x.png`;
-  sixDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[6].dt), 'EEEE');
 
-  const sevenTemp = document.getElementById('seven-temp');
-  const sevenIcon = document.getElementById('seven-weather-icon');
   const sevenDay = document.getElementById('seven-day');
+  const sevenIcon = document.getElementById('seven-weather-icon');
+  const sevenTemp = document.getElementById('seven-temp');
+  const sevenDesc = document.getElementById('seven-desc');
+  const sevenHumidity = document.getElementById('seven-humidity');
+  const sevenPrecip = document.getElementById('seven-precip');
+  sevenDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[7].dt), 'EEEE');
+  sevenIcon.src = `http://openweathermap.org/img/wn/${wd[7].weather[0].icon}@2x.png`;
   sevenTemp.textContent = `${Math.floor(wd[7].temp.max)}/${Math.floor(
     wd[7].temp.min
   )}°F`;
-  sevenIcon.src = `http://openweathermap.org/img/wn/${wd[7].weather[0].icon}@2x.png`;
-  sevenDay.textContent = (0,date_fns_esm__WEBPACK_IMPORTED_MODULE_0__["default"])((0,date_fns_esm__WEBPACK_IMPORTED_MODULE_1__["default"])(wd[7].dt), 'EEEE');
 }
 
 
