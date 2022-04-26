@@ -1,4 +1,4 @@
-# Weather
+# weather app
 
 [LIVE DEMO](https://nekoliav.github.io/Weather/)
 
