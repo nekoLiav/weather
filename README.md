@@ -1,6 +1,6 @@
 # weather
 
-[LIVE DEMO](https://nekoliav.github.io/Weather/)
+[LIVE DEMO](https://nekoliav.github.io/weather/)
 
 <h3>Project Details:</h3>
 <p>This project is a part of the Full Stack JavaScript path of The Odin Project's curriculum.</p>
