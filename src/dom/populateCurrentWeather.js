@@ -1,5 +1,4 @@
 export default async function populateCurrentWeatherPrimary(cw) {
-  console.log(cw);
   const currentWeatherTemp = document.getElementById('current-weather-temp');
   const currentWeatherIcon = document.getElementById('current-weather-icon');
   const currentFeelsLike = document.getElementById('current-feels-like');

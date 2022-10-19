@@ -30,11 +30,14 @@ populateLocation('Columbus, OH, US');
 geolocation();
 
 const locationForm = document.getElementById('location-form');
+const locationResults = document.getElementById('location-results');
+
 locationForm.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') {
     e.preventDefault();
     fetchGeo(e.target.value);
     locationForm.reset();
+    locationResults.style.display = 'flex';
     e.target.blur();
   }
 });

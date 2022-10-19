@@ -25,20 +25,6 @@ body {
   width: 100%;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 4rem;
-  max-height: 5rem;
-}
-
-#header-text {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
 #main {
   display: grid;
   gap: 1rem;
@@ -77,12 +63,12 @@ header {
   height: 2rem;
   width: 50%;
   min-width: 350px;
-  font-size: 1.5rem;
-  border-radius: 10px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 #location-results {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -183,8 +169,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 4rem;
-  max-height: 5rem;
+  height: 2rem;
   min-height: 2rem;
   margin-top: auto;
 }

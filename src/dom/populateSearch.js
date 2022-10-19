@@ -30,6 +30,7 @@ export default function populateSearch(results) {
         e.target.getAttribute('data-lon')
       );
       populateLocation(e.target.textContent);
+      document.getElementById('location-results').style.display = 'none';
     });
 
     resultContainer.append(resultInfo);
